@@ -13,6 +13,13 @@ Intel Macs, with crisp pixel scaling at any window size.
 > of the original Spectrum tapes, the same approach used by ScummVM and similar
 > projects. Please don't commit or redistribute the extracted files or a built app.
 
+![Original Spectrum look (left) and the enhanced mode (right)](docs/screenshots/original_vs_enhanced.png)
+
+| | |
+|---|---|
+| ![Enhanced mode with the side panel](docs/screenshots/office.png) | ![One of the new random events](docs/screenshots/event.png) |
+| ![Band stats screen](docs/screenshots/stats.png) | ![Cheat menu: switch individual events on or off](docs/screenshots/cheats.png) |
+
 ## Requirements
 
 - macOS 13 or later
@@ -241,3 +248,11 @@ game, its text and artwork belong to their respective owners. This is an unoffic
 fan project, not affiliated with or endorsed by Codemasters.
 
 Tape loading uses [SkoolKit](https://skoolkit.ca) by Richard Dymond.
+
+## Licence
+
+The code in this repository is released under the [MIT Licence](LICENSE). That covers only
+the new code and tools written for this rebuild, not the original game: *Rock Star Ate My
+Hamster*, its text, graphics, music and characters remain the property of their respective
+owners and are never stored here. The screenshots show the rebuild running on data
+extracted from an original copy.
