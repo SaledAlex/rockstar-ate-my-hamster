@@ -1,0 +1,20 @@
+# Build output
+.build/
+dist/
+*.xcodeproj/
+.swiftpm/
+
+# Tooling created by tools/setup_assets.sh
+.venv/
+.work/
+
+# Game data extracted from the original tapes: never commit it
+Sources/RockStar/Resources/*
+!Sources/RockStar/Resources/README.md
+*.tzx
+*.tap
+*.z80
+*.sna
+
+.DS_Store
+__pycache__/
